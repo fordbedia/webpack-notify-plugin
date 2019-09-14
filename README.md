@@ -3,8 +3,13 @@ A webpack notifier
 
 ## Installation
 
+npm
 ```
-npm install webpack-notify-plugin --save-dev
+npm install webpack-notify-plugin
+```
+yarn
+```
+yarn add webpack-notify-plugin
 ```
 
 ## Sample Usage
