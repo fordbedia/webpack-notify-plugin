@@ -14,7 +14,7 @@ yarn add webpack-notify-plugin
 
 ## Sample Usage
 ```
-const Notifier = require('webpack-notify-plugin);
+const Notifier = require('webpack-notify-plugin');
 
 module.exports = {
   plugins: [
