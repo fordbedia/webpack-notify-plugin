@@ -12,7 +12,7 @@
   ],
   "author": "Ford Bedia",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "node-notifier": "^5.4.0"
   }
 }
