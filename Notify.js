@@ -13,7 +13,9 @@ class Notifier {
   }
 
   apply(compiler) {
-    compiler.plugin('done', stats => {
+    compiler.hooks.done.tap('done', (
+      stats /* stats is passed as argument when done hook is tapped.  */
+    ) => {
       const time = ((stats.endTime - stats.startTime) / 1000).toFixed(2)
 
       notifier.notify({
